@@ -1,11 +1,11 @@
 import React from "react";
-
+import './Layout.scss';
 import Sidebar from './sidebar/Sidebar';
 
 function Layout(props) {
     // const children = props.children;
     return (
-        <div>
+        <div className="layout">
             <Sidebar />
             {props.children}
         </div>

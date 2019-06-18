@@ -6,7 +6,6 @@ class Dashboard extends Component{
             <div>
                 <h1>DAshboard</h1>
             </div>
-            
         )
     }
 }

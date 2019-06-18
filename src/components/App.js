@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import  Layout from './Layout';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Dashboard from './dashboard/dashboard';
@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Switch>
-          <Route exact path="/" component={Dashboard}/>
-          <Route exact path="/users" component={Users}/>
+          <Route exact path="/" component={ Dashboard }/>
+          <Route exact path="/users" component={ Users }/>
         </Switch>
       </Layout>
     </BrowserRouter>
